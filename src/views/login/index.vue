@@ -12,11 +12,10 @@ meta:
         src="src/assets/logo.svg"
         alt="logo"
       />
-      <div class="login__logo__text">Vue3 Base</div>
+      <div class="login__logo__text">FEDOG</div>
     </div>
     <div class="login__subtitle">
-      A Vue3-based project infrastructure that can help you quickly and engineer
-      Vue3-based project development.
+      An excellent front-end monitoring platform.
     </div>
     <a-form
       class="login__form"
@@ -67,7 +66,7 @@ meta:
         </a-button>
       </a-form-item>
     </a-form>
-    <div class="login__footer">Copyright © 2022 VuePlusOrg</div>
+    <div class="login__footer">Copyright © 2023 VuePlusOrg</div>
   </div>
 </template>
 

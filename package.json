@@ -1,22 +1,16 @@
 {
-  "name": "vue3-base",
-  "version": "1.1.2",
-  "private": true,
-  "description": "A Vue3-based project infrastructure that can help you quickly and engineer Vue3-based project development.",
+  "name": "fedog-admin",
+  "version": "0.0.0",
+  "private": false,
+  "description": "An excellent front-end monitoring platform.",
   "author": {
     "name": "CNMathon",
     "email": "cnmathon@gmail.com",
     "url": "http://github.com/CNMathon"
   },
   "scripts": {
-    "serve": "pnpm serve:develop",
-    "serve:develop": "vite --mode development",
-    "serve:preview": "vite --mode preview",
-    "serve:product": "vite --mode production",
-    "build": "pnpm build:product",
-    "build:develop": "NODE_ENV=development run-p type-check build-only",
-    "build:preview": "NODE_ENV=preview run-p type-check build-only",
-    "build:product": "NODE_ENV=production run-p type-check build-only",
+    "serve": "vite",
+    "build": "un-p type-check build-only",
     "test:unit": "vitest --environment jsdom --root src/",
     "build-only": "vite build",
     "type-check": "vue-tsc --noEmit -p tsconfig.vitest.json --composite false",
@@ -90,15 +84,17 @@
     "vue",
     "vue3",
     "typescript",
-    "base",
-    "template",
-    "ant-design",
-    "ant-design-vue",
-    "vite"
+    "monitor",
+    "monitoring",
+    "cash-reporting",
+    "cash-reports",
+    "error-monitoring",
+    "error-logging",
+    "fedog"
   ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/VuePlusOrg/vue3-base"
+    "url": "https://github.com/VuePlusOrg/fedog"
   }
 }

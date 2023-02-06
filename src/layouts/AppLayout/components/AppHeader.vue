@@ -16,7 +16,7 @@
         <template #overlay>
           <a-menu>
             <a-menu-item @click="() => userStore.logout()">
-              退出登录
+              Logout
             </a-menu-item>
           </a-menu>
         </template>

@@ -1,9 +1,9 @@
 <route lang="yaml">
-name: Home
+name: User
 </route>
 
 <script setup lang="ts"></script>
 
 <template>
-  <div class="home-view">666</div>
+  <div class="user-view">User</div>
 </template>

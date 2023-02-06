@@ -1,9 +1,9 @@
 <route lang="yaml">
-name: Home
+name: ProjectError
 </route>
 
 <script setup lang="ts"></script>
 
 <template>
-  <div class="home-view">666</div>
+  <div class="project-error-view">ProjectError</div>
 </template>
